@@ -1,0 +1,10 @@
+{
+	"name": "MobileViewport Extension",
+	"description": "Browser extension displaying different phone view ports for development",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "index.html",
+		"default_icon": "./images/code-solid.svg"
+	}
+}
