@@ -46,22 +46,6 @@ The MobileViewport extension includes viewport profiles for a wide range of popu
 - OnePlus 8
 - Huawei P40
 
-## Customization
-
-In addition to selecting predefined device profiles, the MobileViewport extension allows for customization of viewport dimensions. This feature enables developers to test specific viewport sizes not covered by the predefined device list.
-
-## Feedback and Support
-
-If you encounter any issues while using the MobileViewport extension or have suggestions for improvement, please don't hesitate to reach out to us. Your feedback is invaluable in helping us enhance the extension and provide a better user experience.
-
-For support or inquiries, contact us at [support@mobileviewport.com](mailto:support@mobileviewport.com) or visit our [website](https://www.mobileviewport.com).
-
-## Contributing
-
-We welcome contributions from the developer community to improve the MobileViewport extension. If you'd like to contribute code, report bugs, or suggest new features, please visit our GitHub repository.
-
-[MobileViewport GitHub Repository](https://github.com/mobileviewport)
-
 ## License
 
 The MobileViewport extension is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to modify and distribute the extension as per the terms of this license.
