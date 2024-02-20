@@ -37,8 +37,15 @@ const phoneModelObject = {
     imageURL: "",
   },
 }
+// I need to comment more
+const width = window.innerWidth;
 
 
+// Practice no look typing
+const height = window.innerHeight;
+console.log("Inner Width: ", width)
+
+console.log("Inner Height: ", height)
 phonePicker.addEventListener('input', (e) => {
   console.log(e.target.value)
 })
