@@ -2,8 +2,15 @@
 <html lang="en">
 
 <head>
-  <title></title>
+  <title>MobileViewport</title>
   <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="/css/style.css" rel="stylesheet" />
 </head>
@@ -11,14 +18,15 @@
 <body>
   <div class="testing">
     <h1>MobileViewport</h1>
-    <label for="phone-models">Phone Model:</label>
+    <iframe id="phoneFrame" class="phoneFrame" src="pageOne.html" height="200" width="300" title="MobileViewport"></iframe>
+    <label for="phone-models" class="phone-label">Select Phone Model:</label>
     <select name="phone-models" id="phone-models">
       <option value="iPhone X">Iphone X</option>
       <option value="iPhone 6/7/8">Iphone 6/7/8</option>
       <option value="Samsung Galaxy S20">Samsung Galaxy S20</option>
       <option value="Samsung Galaxy S20+">Samsung Galaxy S20+</option>
       <option value="Iphone XR 11">Iphone XR 11</option>
-      <option value="Huawai P40">Huawei P40</option>
+      <option value="Huawei P40">Huawei P40</option>
       <option value="Galaxy Note">Samsung Galaxy Note</option>
     </select>
   </div>
