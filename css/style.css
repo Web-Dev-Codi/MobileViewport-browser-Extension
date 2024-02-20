@@ -21,6 +21,15 @@ body, html{
 }
 
 
-.phone-label {
+.phone-label,
+.main-title {
   text-align: center;
+}
+
+iframe{
+width: 400px;
+height: 600px;
+background-image: url("/images/Iphonex.png");
+background-repeat: no-repeat;
+background-size: contain;
 }
