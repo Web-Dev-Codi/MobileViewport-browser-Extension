@@ -24,7 +24,7 @@ const phoneModelObject = {
   Iphone_XR_11: {
     width: 414,
     height: 896,
-    imageURL: "",
+      imageURL: "",
   },
   Galaxy_Note: {
     width: 412,
